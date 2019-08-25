@@ -16,3 +16,11 @@ The default value is
 ```
 120
 ```
+
+
+# Licence information
+countdown.wav 
+
+I converted the file format to .wav from .flac for it to work with my script.
+
+Cyborg Countdown http://www.freesound.org/people/qubodup/sounds/211992 by Iwan ‘qubodup’ Gabovitch http://freesound.org/people/qubodup under CC-BY 3.0 License http://creativecommons.org/licenses/by/3.0/legalcode
