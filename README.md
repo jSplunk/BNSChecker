@@ -8,7 +8,7 @@ A Script which checks if you have been playing BNS (Blade and Soul) for too long
 
 Enjoy the script :D
 
-If you want to change the amount of minutes until shutdown the application, the variable is called:
+If you want to change the amount of minutes until shutdown of the application, the variable is called:
 ```python
 amount_of_minutes_utill_kill
 ```
