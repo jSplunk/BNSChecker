@@ -1,6 +1,6 @@
-import psutil
+import psutil #https://pypi.org/project/psutil/
 import os, sys
-from playsound import playsound
+from playsound import playsound #https://pypi.org/project/playsound/
 
 found = False
 counter = 0
@@ -21,10 +21,10 @@ while(True):
                 print("Addded ",p.name(), " with the PID: ", p.pid, "to the list")
             if len(BNS) > 1:
                 found = True;
-                print("Found all occurences...")
+                print("Found all occurrences...")
                 break
 
-    print("[Started Counter}")
+    print("[Started Counter]")
     while(found):
         counter = BNS[1].cpu_times().user
         if (counter > amount_of_minutes_utill_kill * 60):
@@ -41,10 +41,3 @@ while(True):
         elif (counter >= (amount_of_minutes_utill_kill * 60) - 60):
             print("Warning!")
             playsound(one_minute_remaining)
-    
-
-
-            
-
-
-
